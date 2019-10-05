@@ -1,0 +1,32 @@
+html {
+    background-color: #339944;
+}
+
+.header {
+    padding: 40px;
+    margin-bottom: 8px;
+    text-align: right;
+    color: black;
+    background-color: yellow;
+}
+
+
+#navigation {
+    color: white;
+    width: 15%;
+    padding: 10px;
+    
+    text-align: left;
+    background: gray;
+
+
+}
+
+#navigation a {
+    margin-right: 30px;
+}
+
+#navigation ul {
+    list-style-type: none;
+}
+

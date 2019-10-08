@@ -1,21 +1,34 @@
 html {
     background-color: #191b19;
+    background-image: url(../images/nature.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #d2d3d2;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.header {
+#header {
     padding: 40px;
     margin-bottom: 8px;
     text-align: right;
     color: black;
     background-color: yellow;
-    animation-name: inherit;
-    animation-duration: 4s;
+    -webkit-animation-name: header-animation;
+    -webkit-animation-duration: 9s;
+    animation-name: header-animation;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
 }
-@keyframes {
-    from {background-color: yellow;}
-    to {background-color: red;}
+
+@-webkit-keyframes header-animation{
+    0% {background-color: yellow;}
+    50% {background-color: red;}
+    100% {background-color: yellow;}
+}
+@keyframes header-animation{
+    0% {background-color: yellow;}
+    50% {background-color: red;}
+    100% {background-color: yellow;}
 }
 
 
@@ -37,15 +50,13 @@ html {
     list-style-type: none;
 }
 
-#aboutme {
+
+
+
+#formspree {
+    position: relative;
     padding: 5px;
-   text-align: center;
-    background-color: #72b0da;
-    color: #1a1b19;
-    margin-bottom: 8px;
-}
+    background-color: chocolate;
+    margin: 5px;
 
-#aboutme h2{
-    text-align: center;
 }
-

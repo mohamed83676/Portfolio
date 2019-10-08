@@ -1,0 +1,39 @@
+html {
+    position: relative;
+    background-color: #191b19;
+    color: #d2d3d2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+#aboutme {
+    padding: 5px;
+   text-align: center;
+    background-color: #72b0da;
+    color: #1a1b19;
+    margin-bottom: 8px;
+    -webkit-animation-name: about-me-animation;
+    -webkit-animation-duration: 9s;
+    animation-name: about-me-animation;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes about-me-animation{
+    0% {background-color: #72b0da;}
+    50% {background-color: rgb(26, 245, 37);}
+    100% {background-color: #72b0da;}
+}
+@keyframes habout-me-animation{
+    0% {background-color: #72b0da;}
+    50% {background-color:rgb(26, 245, 37);}
+    100% {background-color: #72b0da;}
+}
+
+#aboutme h2{
+    text-align: center;
+}

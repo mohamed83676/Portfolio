@@ -1,8 +1,6 @@
 html {
+    position: relative;
     background-color: #191b19;
-    background-image: url(../images/nature.JPG);
-    background-size: cover;
-    background-repeat: no-repeat;
     color: #d2d3d2;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -34,10 +32,10 @@ html {
 
 
 #navigation {
+    position: relative;
     color: white;
-    width: 15%;
+    display: inline-block;
     padding: 10px;
-    
     text-align: left;
     background: gray;
 
@@ -60,3 +58,9 @@ html {
     margin: 5px;
 
 }
+
+#resume {
+    padding-top: 5px;
+    position: relative;
+}
+

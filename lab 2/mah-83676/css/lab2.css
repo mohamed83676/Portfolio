@@ -1,0 +1,36 @@
+body {
+    color: lime;
+    background-color: #666699;
+}
+
+a {
+    color: silver;
+}
+
+.lists {
+    color: peru;
+}
+
+.content-links {
+    font-style: italic;
+}
+
+#fav {
+    font-weight: bold;
+    font-size: 2.2em;
+    color: gold;
+}
+
+#my-usages {
+    color:gold;
+}
+
+#alternative {
+    border-style: solid;
+    margin: 1em;
+    padding: 2em;
+}
+
+aside {
+    line-height: 2em
+}

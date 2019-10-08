@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(23, 134, 161);
+}
+#header {
+    position: absolute;
+    top: 1%;
+    left: 89%;
+    width: 11%;
+    height: 8%;
+    background-color: rgb(5, 5, 5);
+}
+h1 {
+    
+    color: rgb(201, 41, 140);
+    background-color: rgb(5, 5, 5);
+}
+#topleftbox {
+    position: absolute;
+    top: 17%;
+    left: 2%;
+    width: 60%;
+    height: 21%;
+    background-color: red;
+}
+
+#toprightbox {
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    height: 40%;
+    width: 53%;
+    background-color: darkorange
+}
+
+h2 { 
+   text-align: center;
+}
+
+
+table {
+    border: 7px;
+    border-style: double;
+    border-color: firebrick;
+    background-color: greenyellow;
+}
+td{
+    border: 1.6px;
+    border-style: ridge;
+    border-color: firebrick;
+}
+
+#midleftbox {
+    position: absolute;
+    top: 83%;
+    left: 2%;
+    width: 60%;
+    height: 17%;
+    background-color: lime;
+}
+
+#midrightbox {
+    position: absolute;
+    top: 105%;
+    left: 75%;
+    height: 18%;
+    width: 23%;
+    background-color: magenta
+}
+#references {
+    position: absolute;
+    top: 117%;
+    left: 2%;
+    width: 13%;
+    height: 24%;
+    background-color: moccasin;
+}

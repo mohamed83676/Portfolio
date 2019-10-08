@@ -1,5 +1,7 @@
 html {
-    background-color: #339944;
+    background-color: #191b19;
+    color: #d2d3d2;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header {
@@ -8,7 +10,14 @@ html {
     text-align: right;
     color: black;
     background-color: yellow;
+    animation-name: inherit;
+    animation-duration: 4s;
 }
+@keyframes {
+    from {background-color: yellow;}
+    to {background-color: red;}
+}
+
 
 
 #navigation {
@@ -22,11 +31,21 @@ html {
 
 }
 
-#navigation a {
-    margin-right: 30px;
-}
+
 
 #navigation ul {
     list-style-type: none;
+}
+
+#aboutme {
+    padding: 5px;
+   text-align: center;
+    background-color: #72b0da;
+    color: #1a1b19;
+    margin-bottom: 8px;
+}
+
+#aboutme h2{
+    text-align: center;
 }
 

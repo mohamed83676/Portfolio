@@ -8,6 +8,14 @@ html {
     animation-name: html;
     animation-duration: 9s;
     animation-iteration-count: infinite;
+    font-family: monospace;
+    font-size: 25px;
+    text-align: center;
+
+}
+ul {
+    list-style-type: none;
+    
 }
 
 @-webkit-keyframes html{

@@ -3,6 +3,22 @@ html {
     background-color: #191b19;
     color: #d2d3d2;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-animation-name: html;
+    -webkit-animation-duration: 9s;
+    animation-name: html;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes html{
+    0% {background-color: black;}
+    50% {background-color: rgb(11, 15, 252);}
+    100% {background-color: black;}
+}
+@keyframes html{
+    0% {background-color: black;}
+    50% {background-color: rgb(11, 15, 252);}
+    100% {background-color: black;}
 }
 
 #header {
@@ -20,13 +36,17 @@ html {
 
 @-webkit-keyframes header-animation{
     0% {background-color: yellow;}
-    50% {background-color: red;}
+    50% {background-color: rgb(61, 240, 180);}
     100% {background-color: yellow;}
 }
 @keyframes header-animation{
     0% {background-color: yellow;}
-    50% {background-color: red;}
+    50% {background-color: rgb(61, 240, 180);}
     100% {background-color: yellow;}
+}
+
+#header p{
+    text-align: center;
 }
 
 

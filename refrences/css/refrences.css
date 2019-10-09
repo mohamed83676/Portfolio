@@ -1,0 +1,22 @@
+html {
+    position: relative;
+    background-color: #191b19;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-animation-name: html;
+    -webkit-animation-duration: 9s;
+    animation-name: html;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes html{
+    0% {background-color: lime;}
+    50% {background-color: rgb(11, 15, 252);}
+    100% {background-color: lime;}
+}
+@keyframes html{
+    0% {background-color: lime;}
+    50% {background-color: rgb(11, 15, 252);}
+    100% {background-color: lime;}
+}

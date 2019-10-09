@@ -3,6 +3,22 @@ html {
     background-color: #191b19;
     color: #d2d3d2;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-animation-name: html;
+    -webkit-animation-duration: 9s;
+    animation-name: html;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes html{
+    0% {background-color: rgb(89, 0, 97);}
+    50% {background-color: rgb(252, 39, 11);}
+    100% {background-color: rgb(89, 0, 97);}
+}
+@keyframes html{
+    0% {background-color:rgb(89, 0, 97);}
+    50% {background-color: rgb(252, 39, 11);}
+    100% {background-color: rgb(89, 0, 97);}
 }
 
 img {
